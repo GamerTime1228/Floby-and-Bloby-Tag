@@ -66,7 +66,7 @@ function preload() {
     flobImageDown = loadImage("F_down3.gif");
     flobImageWin = loadImage("F_Win4.gif");
     glodImage = loadImage("glod.gif");
-    introImage = loadImage("intro2.png");
+    introImage = loadImage("intro3.png");
     introTextImage = loadImage("introText3.png");
     titleImage = loadImage("title.png");
     artworkImage = loadImage("artwork3.png");
@@ -163,7 +163,7 @@ function draw() {
 
         // Make the logo grow until a certain point
         if(introTimer < 10) {
-            intro.scale = intro.scale + 0.0125;
+            intro.scale = intro.scale + 0.0065
         }
 
         // after ad, start the game
