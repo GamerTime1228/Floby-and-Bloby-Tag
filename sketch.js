@@ -148,6 +148,7 @@ function draw() {
 
     if(keyDown("esc")) {
         window.close();
+        Location.reload();
     }
 
     // intro animation
