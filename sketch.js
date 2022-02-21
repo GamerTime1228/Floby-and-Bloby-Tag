@@ -66,7 +66,7 @@ function preload() {
     flobImageDown = loadImage("F_down3.gif");
     flobImageWin = loadImage("F_Win4.gif");
     glodImage = loadImage("glod.gif");
-    introImage = loadImage("Intro2.png");
+    introImage = loadImage("intro2.png");
     introTextImage = loadImage("introText3.png");
     titleImage = loadImage("title.png");
     artworkImage = loadImage("artwork3.png");
