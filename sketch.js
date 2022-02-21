@@ -146,9 +146,12 @@ function draw() {
         location.reload();
     }
 
-    if(keyDown("esc")) {
+    if(keyDown("delete")) {
         window.close();
-        Location.reload();
+    }
+
+    if(keyDown("esc")) {
+        Location.close();
     }
 
     // intro animation
