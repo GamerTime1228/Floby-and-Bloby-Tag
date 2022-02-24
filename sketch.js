@@ -1089,15 +1089,15 @@ function draw() {
         }
         if(score >= 3500 && score < 4500) {
             textSize(45);
-            text("3th place! Well done!", 250, 400);
+            text("3rd place! Well done!", 250, 400);
         }
         if(score >= 4500 && score < 10000) {
             textSize(45);
-            text("2th place! Congrats!", 250, 400);
+            text("2nd place! Congrats!", 250, 400);
         }
         if(score >= 10000) {
             textSize(45);
-            text("1th place! Incredible!", 250, 400);
+            text("1st place! Incredible!", 250, 400);
         }
         textSize(20);
         text("Press ENTER to play again!", 250, 450);
